@@ -30,7 +30,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Noto+Serif:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -45,14 +45,14 @@
 @import url(css/font-awesome.min.css);
 
 @font-face {
-    font-family: 'HeinbergTextured'; 
-    src: url('./fonts/Heinberg-Textured.otf'); 
+    font-family: 'AkuraPopoTextured'; 
+    src: url('./fonts/Akura-Popo.ttf'); 
   }
 
-  @font-face {
-    font-family: 'PierceJameson';
-    src: url('./fonts/Pierce-Jameson-Script.ttf');
-  }
+  /* @font-face {
+    font-family: 'PhotographSignature';
+    src: url('./fonts/Photograph-Signature.ttf');
+  } */
 
 /*------------------------------------------------------------------
     SKELETON
@@ -61,7 +61,7 @@
 body {
     color: #1f1f1f;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
 }
 
@@ -105,7 +105,7 @@ a {
 
 h1, h2, h3 {
     letter-spacing: 0;
-    font-family: 'HeinbergTextured' !important;
+    font-family: 'AkuraPopoTextured' !important;
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
@@ -118,7 +118,6 @@ h4,
 h5,
 h6 {
     letter-spacing: 0;
-    font-family: 'PierceJameson' !important;
     position: relative;
     padding: 0 0 10px 0;
     font-weight: normal;
@@ -199,7 +198,7 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    font-family: 'PierceJameson' !important;
+    font-family: 'PhotographSignature' !important;
     color: #767676;
     margin: 0;
     padding: 0;
@@ -605,7 +604,7 @@ body.barber_version .sidebar-nav li a.active{
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 16em 0 13em;
+    /* padding: 16em 0 13em; */
 }
 
 .first-section::before{
