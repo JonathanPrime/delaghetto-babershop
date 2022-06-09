@@ -210,7 +210,8 @@ body.barber_version .first-section h2 strong {
 }
 
 body.barber_version .first-section h2 {
-    font-size: 52px;
+    font-size: 3rem;
+    padding-top: 7rem;
 }
 
 
@@ -347,7 +348,7 @@ body.barber_version .dev-list .widget-title {
     }
     body.barber_version .first-section h2 strong,
     body.barber_version .first-section h2 {
-        font-size: 36px;
+        font-size: 1.5rem;
     }
 }
 
